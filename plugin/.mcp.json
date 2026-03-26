@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "shopify-shopping": {
+      "command": "node",
+      "args": ["./mcp-server/dist/index.js"],
+      "env": {
+        "BACKEND_URL": "${SHOPIFY_BACKEND_URL:-https://sbrvzdnjb3q3rdtlobgodijbze0bghyw.lambda-url.ap-south-1.on.aws/}"
+      }
+    }
+  }
+}

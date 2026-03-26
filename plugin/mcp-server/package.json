@@ -1,0 +1,30 @@
+{
+  "name": "10x-shopping-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for 10x Shopping — browse products, manage carts, and checkout through AI assistants",
+  "author": "qressy",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qressy/10x-claude-plugin"
+  },
+  "engines": {
+    "node": ">=22.5"
+  },
+  "bin": {
+    "10x-shopping-mcp": "./dist/index.js"
+  },
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.0",
+    "typescript": "^5.3.3"
+  }
+}

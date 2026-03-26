@@ -1,0 +1,17 @@
+{
+  "name": "10x-shopping",
+  "version": "1.0.0",
+  "description": "AI shopping assistant for Shopify stores. Browse products from the global catalog, manage carts, and complete purchases through natural conversation. Supports multi-store platforms with source tracking and analytics.",
+  "author": {
+    "name": "qressy",
+    "email": "info@10xgeo.com",
+    "url": "https://github.com/qressy"
+  },
+  "repository": "https://github.com/qressy/10x-claude-plugin",
+  "homepage": "https://github.com/qressy/10x-claude-plugin",
+  "license": "MIT",
+  "keywords": ["shopify", "ecommerce", "shopping", "products", "cart", "checkout", "ai-commerce"],
+  "skills": "./skills/",
+  "agents": "./agents/",
+  "mcpServers": "./.mcp.json"
+}
